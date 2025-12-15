@@ -3,3 +3,11 @@
 //
 
 #include "Operator.h"
+using namespace std;
+
+Operator::Operator() {
+
+}
+float Operator::Calculate() {
+
+}

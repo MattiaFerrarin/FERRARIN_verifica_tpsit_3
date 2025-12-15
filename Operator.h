@@ -4,9 +4,14 @@
 
 #ifndef FERRARIN_VERIFICA_TPSIT_3_OPERATOR_H
 #define FERRARIN_VERIFICA_TPSIT_3_OPERATOR_H
-
+#include <string>
+using namespace std;
 
 class Operator {
+    public:
+    Operator();
+    virtual string Print() = 0;
+    float Calculate();
 };
 
 

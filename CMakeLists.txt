@@ -5,4 +5,6 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_executable(FERRARIN_verifica_tpsit_3 main.cpp
         Operator.cpp
-        Operator.h)
+        Operator.h
+        Fraction.cpp
+        Fraction.h)
